@@ -1,4 +1,4 @@
-# Dark Room Triage Spec
+# Relic Recon Spec
 
 ## Overview
 Passive reconnaissance tool that accepts a domain/target and performs MCP-based lookups to generate a security triage brief.

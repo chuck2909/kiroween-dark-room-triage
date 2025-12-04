@@ -8,7 +8,7 @@ import logging
 import asyncio
 import httpx
 
-app = FastAPI(title="Dark Room Triage API")
+app = FastAPI(title="Relic Recon API")
 
 # Runtime flags/env
 STUB_MODE = os.getenv("STUB_MODE", "true").lower() == "true"   

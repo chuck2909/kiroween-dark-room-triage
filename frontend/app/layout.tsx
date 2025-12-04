@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Dark Room Triage',
+  title: 'Relic Recon',
   description: 'Passive reconnaissance and security triage',
 }
 

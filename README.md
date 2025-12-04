@@ -1,4 +1,4 @@
-# Dark Room Triage
+# Relic Recon
 
 Passive, low-data passive reconnaissance for quick security triage. Paste a domain → get assets, a tech hint, top CVEs, exposures, and analyst checks. Built with Kiro (Specs, Steering, Hooks) + FastAPI + Next.js.
 

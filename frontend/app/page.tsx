@@ -61,7 +61,7 @@ export default function Home() {
 
   return (
     <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '2rem', fontFamily: 'system-ui' }}>
-      <h1 style={{ fontSize: '2rem', marginBottom: '1rem' }}>🕵️ Dark Room Triage</h1>
+      <h1 style={{ fontSize: '2rem', marginBottom: '1rem' }}>🕵️ Relic Recon</h1>
       <p style={{ color: '#666', marginBottom: '2rem' }}>Passive reconnaissance and security triage</p>
 
       <form onSubmit={handleSubmit} style={{ marginBottom: '2rem' }}>
