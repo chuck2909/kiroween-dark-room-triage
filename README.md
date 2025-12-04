@@ -102,7 +102,7 @@ pytest -v
 ✅ 400 on bad target; 502 on upstream error • ✅ Passive only—no intrusive scans
 
 
-## How I Used Kiro (First-Timer’s Notes)
+## How I Used Kiro (First-Timer)
 
 **Starting with Vibe.** I’m new to Kiro, so I began in *Vibe* mode to talk through what I wanted: a super-simple “paste a domain → get a triage brief.” Vibe helped me scaffold both the FastAPI backend and the Next.js page quickly.
 
