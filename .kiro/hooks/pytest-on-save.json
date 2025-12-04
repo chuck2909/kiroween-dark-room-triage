@@ -1,0 +1,13 @@
+{
+  "name": "Run pytest on API saves",
+  "description": "Automatically run pytest when files under /api are saved",
+  "trigger": {
+    "type": "onFileSave",
+    "filePattern": "api/**/*.py"
+  },
+  "action": {
+    "type": "shellCommand",
+    "command": "cd api && pytest -v"
+  },
+  "enabled": true
+}

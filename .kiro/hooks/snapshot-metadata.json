@@ -1,0 +1,13 @@
+{
+  "name": "Snapshot MCP metadata",
+  "description": "Log MCP call metadata to evidence.log (rotates at 1MB)",
+  "trigger": {
+    "type": "onAgentComplete",
+    "condition": "message.includes('MCP')"
+  },
+  "action": {
+    "type": "shellCommand",
+    "command": "echo \"$(date -u +%Y-%m-%dT%H:%M:%SZ) | MCP call completed\" >> api/evidence.log && [ $(wc -c < api/evidence.log) -gt 1048576 ] && mv api/evidence.log api/evidence.log.$(date +%Y%m%d%H%M%S) || true"
+  },
+  "enabled": true
+}

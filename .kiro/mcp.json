@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "cvefeed": {
+      "command": "uvx",
+      "args": ["mcp-server-cvefeed@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": ["search_cves", "product_lookup"]
+    },
+    "github": {
+      "command": "uvx",
+      "args": ["mcp-server-github@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR",
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+      },
+      "disabled": false,
+      "autoApprove": ["code_search", "repo_meta"]
+    }
+  }
+}

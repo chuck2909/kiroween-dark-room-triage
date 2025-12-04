@@ -1,0 +1,13 @@
+{
+  "name": "Render brief after triage",
+  "description": "Generate brief.md after successful /triage call",
+  "trigger": {
+    "type": "onAgentComplete",
+    "condition": "message.includes('/triage')"
+  },
+  "action": {
+    "type": "agentMessage",
+    "message": "Generate a brief.md file following the triage-style.md guidelines based on the last triage response"
+  },
+  "enabled": true
+}
